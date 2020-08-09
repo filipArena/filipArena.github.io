@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Filip Dimitrovski</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzAiIGhlaWdodD0iNzAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnPgo8ZWxsaXBzZSBjeD0iMzMiIGN5PSIzMyIgcng9IjMzIiByeT0iMzMiIGZpbGw9IiNmZmYiLz4KPHRleHQgeD0iMTIiIHk9IjYzIiBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0iJ1RpbWVzIE5ldyBSb21hbicsIHNlcmlmIiBmb250LXNpemU9IjgwIj5GPC90ZXh0Pgo8L2c+Cjwvc3ZnPg==">
+</head>
+<body>
+	<div class="container" id="site">
+		<h1 class="headline" onclick="dark()">
+			Filip Dimitrovski <span class="float-right">🥽</span>
+		</h1>
+		<div class="line"></div>
+		<div class="row">
+			<div class="col-sm-4">
+				<strong>About me:</strong> I'm a Computer Science
+				student living in Skopje. I'm interested in
+				distributed & low level programming, Python & C.<br><br>
+
+				<img class="w50 float-left mr-2" src="https://pbs.twimg.com/profile_images/909742100283035648/cq9pi2uY_400x400.jpg">
+				Find me on <a href="https://twitter.com/filipArena">Twitter</a>,
+				<a href="https://github.com/filipArena">GitHub</a> or send me an email:
+				filip <span class="e-trick">a t</span> tune.mk<br><br><br>
+			</div>
+			<div class="col-sm-8">
+				<h5>Projects</h5>
+
+				<h6>Travelling salesman solver for Python</h6>
+				A library written in Python based on LKH by Keld Helsgaun for solving
+				symmetric and asymmetric TSP problems.<br>
+				<ul>
+					<li><strong>Link:</strong> <a href="https://github.com/filipArena/elkai">https://github.com/filipArena/elkai</a></li>
+				</ul>
+				<br>
+
+				<h6>Vehicle tracking in traffic videos</h6>
+				This project involves tracking and counting vehicles through time
+				using a top-down video stream of an intersection with no occlusions. In those
+				conditions, it achieves almost perfect results with real-time performance.
+				<ul>
+					<li><strong>Demo:</strong> <a href="https://twitter.com/mkrobot/status/1165955815389433856">Counting car video on Twitter</a></li>
+					<li><strong>Technologies:</strong> Shapely for geometry math, Re3 for tracking and YOLOv3 for detection.</li>
+				</ul>
+				<br>
+
+				<h5>Sites I like</h5>
+
+				<a href="https://theoatmeal.com">The Oatmeal</a><br>
+				<a href="https://gwern.net">gwern.net</a><br>
+				<a href="https://xkcd.com">xkcd.com</a><br>
+				<a href="https://news.ycombinator.com/news">Hacker News</a><br>
+				<a href="https://slatestarcodex.com">SlateStarCodex</a><br>
+				<a href="https://scottaaronson.com/blog/">Shtetl-Optimized</a><br>
+				<a href="https://www.youtube.com/c/commaaiarchive/videos">George Hotz hacking vlogs</a><br>
+				<a href="https://www.youtube.com/user/jblow888/videos">Jonathan Blow game programming vlogs</a>
+
+				<br><br>
+				
+				<sup>Typography powered by Don Knuth.</sup>
+				<br>
+			</div>
+		</div>
+	</div>
+	<script>
+		var dark = () => { localStorage['dark'] = document.body.classList.toggle('dark'); }
+		if(localStorage['dark'] === 'true') dark();
+	</script>
+</body>
+</html>

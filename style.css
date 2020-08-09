@@ -1,0 +1,91 @@
+@font-face {
+	font-family: "Computer Modern Big";
+	src: url("fonts/CMBX12_q.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Computer Modern";
+	src: url("fonts/CMR10_r.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Computer Modern";
+	src: url("fonts/CMBX10_s.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Computer Modern";
+	src: url("fonts/CMTI10_v.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+}
+
+#site{
+	max-width: 1050px;
+}
+
+body{
+	font-family: "Computer Modern";
+	font-size: 18px;
+}
+
+body.dark{
+	background: #000;
+	color: #fff;
+}
+
+body.dark a{
+	color: #948ffa;
+}
+
+.line{
+	border-top: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+
+body.dark .line{
+	border-top-color: #333;
+}
+
+.w50{
+	width: 50px;
+}
+
+.e-trick{
+	letter-spacing: -2px;
+}
+
+h1{
+	font-family: "Computer Modern Big";
+	font-size: 21px;
+}
+
+h5{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h6{
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+.headline{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+	cursor: pointer;
+}
+
+a, a:visited{
+	color: #5858b7;
+	text-decoration: none;
+}
