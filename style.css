@@ -50,7 +50,7 @@ body.dark a{
 }
 
 body.dark .line{
-	border-top-color: #333;
+	border-top-color: #6f809c;
 }
 
 .w50{
@@ -86,6 +86,6 @@ h6{
 }
 
 a, a:visited{
-	color: #5858b7;
+	color: #1166d0;
 	text-decoration: none;
 }
