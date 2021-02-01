@@ -36,12 +36,12 @@ body{
 }
 
 body.dark{
-	background: #000;
+	background: #2d3138;
 	color: #fff;
 }
 
 body.dark a{
-	color: #948ffa;
+	color: #00B0F4;
 }
 
 .line{
